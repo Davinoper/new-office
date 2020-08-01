@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
     crossorigin="anonymous">
+    <script src ="js/email.js"></script>
     <header>
         <div id="logo">
                 <a href="#">
@@ -64,11 +65,11 @@
 <div id ="form">
 <h3>Fale conosco</h3>
 
-<form action="http://gmail.com" method="POST"> 
+<form action=" " method="POST"> 
 
  <p> 
  Nome:<br /> 
- <input type="text" size="30" name="nome" placeholder="Nome"> 
+ <input type="text" size="30" id="nome" placeholder="Nome"> 
  </p>   
 
  <p> 
@@ -83,17 +84,17 @@
  
  <p> 
  Comentários:<br /> 
- <input type="text" size="35" name="Comentarios" placeholder="Comentário"> 
+ <input type="text" size="35" id="comentarios" placeholder="Comentário"> 
  </p>   
  
  <p> 
- <input type="submit" id="BTenvia" value="Enviar"> 
+ <button type="submit" id="BTenvia" value="Enviar" Onclick="email()">Enviar</button>
  <input type="reset" id="BTapaga" value="Apagar"> </p> 
  </form>
 </div>
 
 <blockquote id="numero">
-    <h>Precisa de um Contato mais próximo?</h><br>
+    <h>Precisa de um contato imediato?</h><br>
     <br>
     <br>
     <h0>(63) 99999-9999</h0>
@@ -104,8 +105,6 @@
    
 
 </section>
-
-
 
 
 

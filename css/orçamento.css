@@ -33,6 +33,11 @@ p{
     width:25%
 }
 
+#entrega{
+    margin-top:0
+
+}
+
 #links{
     float:right;
     margin-right:20px;
@@ -340,7 +345,7 @@ main{
     margin-left: 30px
 }
 
-@media(max-width:1080px){
+@media(max-width:1280px){
 
     #menuf{
         margin-right: 70%
@@ -354,4 +359,7 @@ main{
         margin-top:100%
     }
 
+    #new{
+        width:35%
+    }
 }
