@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
     crossorigin="anonymous">
+    <script src ="js/email.js"></script>
     <header>
         <script src="js/calcular.js"></script>
         <div id="logo">
@@ -74,13 +75,47 @@
         </table>
         <div>
         <blockquote id="entregas">
-         <h>Entrega normal: valores sobre peso de carga e frete padrão.<br>
+         <h><strong>Entrega normal:</strong> valores sobre peso de carga e frete padrão.<br>
          <br>
-         Entrega expressa : valores sobre peso de carga e frete aumentados.</h>
+         <strong>Entrega expressa: </strong>valores sobre peso de carga e frete aumentados.</h>
         </blockquote>
        </div>
     </section>
-    <footer>
+    <section id="formu">
+        <form action=" " method="POST" id="fale"> 
+
+            <h3>Sobre sua carga:</h3>
+
+            <p> 
+            Nome:<br /> 
+            <input type="text" size="30" id="nome" placeholder="Nome"> 
+            </p>   
+           
+            <p> 
+            Telefone:<br /> 
+            <input type="text" id="fone" size="30" name="nome" placeholder="ex:(63) 9999-9999"> 
+            </p>   
+            
+            <p>
+            E-mail:<br /> 
+            <input type="text" size="30" name="e-mail" placeholder="E-mail"> 
+            </p>   
+            
+            <p> 
+            Sobre sua carga:<br /> 
+            <input type="text" size="35" id="comentarios" placeholder="Comentário"> 
+            </p>   
+            
+            <p> 
+            <button type="submit" id="BTenvia" value="Enviar" Onclick="email2()">Enviar</button>
+            <input type="reset" id="BTapaga" value="Apagar"> </p> 
+            </form>
+           </div>
+        
+           
+             
+           </section>
+        <footer>
     <aside>
             <nav id="mais">
                 <ul>
