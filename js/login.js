@@ -1,11 +1,13 @@
 function loga(){
 
-    var poeLogin = document.querySelector('#login');
-    var poeSenha = document.querySelector('#senha');
+    var poeLogin = document.getElementById('login').value;
+    console.log(poeLogin)
+    var poeSenha = document.getElementById('senha').value;
+    console.log(poeSenha)
 
-    if(poeLogin.value == "admin" && poeSenha.value == "admin")
+    if(poeLogin == "admin" && poeSenha == "admin")
     {
-        window.location.href = "https://www.youtube.com/";
+        window.location.href= "admin.html";
     }
     else
     {

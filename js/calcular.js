@@ -8,13 +8,13 @@ function frete(){
     console.log(distancia);
     if(opcao == "norm")
     {
-        var calculo = (peso * 2) + (distancia * 1.32);
+        var calculo = (peso * 2) + (distancia * 0.32);
         console.log(calculo);
         var valor = document.querySelector('#resultado');
     }
     else if(opcao == "ex")
     {
-        var calculo = peso * 2 + distancia * 1.76;
+        var calculo = peso * 2 + distancia * 0.76;
         console.log(calculo);
         var valor = document.querySelector('#resultado');
     }
