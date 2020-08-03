@@ -1,6 +1,7 @@
 body{
     margin:0;
-    background-color:white;
+    background-color:gray;
+  
 }
 
 h1{
@@ -14,38 +15,17 @@ h1{
     
 }
 
-h0{
-    text-align: center;
-    color:white;
-    font-size:30px;
-    position:relative;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-
-    
-}
-
 p{
     font-size:20px;
-    color:black;
-    margin-left:30px;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content:center;
-    clear:bottom;
-}
-
-.mais-qsm{
-    color:gray;
-    font-size: 15px;
+    margin-right: 15px;
+    text-align:center;
 }
 
 #logo{
-    background-color:white;
+    background-color: white;
     width: 100%;
-    border-bottom:1px solid #cccccc;
-}
-
-.inpu{
-    width:80%
+    border-bottom: 1px solid #cccccc;
+    
 }
 
 #new{
@@ -54,12 +34,8 @@ p{
 
 #links{
     float:right;
-    margin-right:1%;
-    margin-top: 2%
-}
-
-.link{
-    width:18%
+    margin-right:20px;
+    margin-top:20px
 }
 
 #links a{
@@ -76,7 +52,7 @@ p{
 
 
 .menu {
-    background-color: #ff6666;
+    background-color:#ff6666;
     position:absolute;
     display:flex;
     padding:0;
@@ -87,7 +63,7 @@ p{
     margin-left:-400px;
     transition: 0.5s;
     Z-index:2;
-    height:100%
+    height:100%;
 }
 
 .menu ul{
@@ -112,9 +88,9 @@ p{
 }
 
 #orçamento{
-    border: 2px solid #ff4d4d;
+    border: 2px solid  #ff4d4d;
     background-color: #ff4d4d;
-    color:white ;
+    color: white;
     border-radius:5%;
     width: 150px;
     margin-left: 5px;
@@ -175,14 +151,8 @@ header label{
 
 h2{
     color:white;
-    font-size:10%;
+    font-size:30px
 }
-
-h{
-    color: black;
-    font-size:40px;
-    font-family:Candara;
-} 
 
 h3{
     position:relative;
@@ -190,35 +160,25 @@ h3{
     margin-left: 30px;
     margin-right:none;
     padding-right:none;
-    width:200px;
+    width:100px;
     font-size:60px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     margin-bottom:50px;
     border-bottom:5px solid red;
 }
 
-#fundo{
-    width:100%
+h9{
+    font-size:150px;
+    Z-index:5;
+    position:absolute;
+    text-align:center;
 }
 
 #mais{
-    bottom:0;
-    float:bottom;
-    width:100%;
-    background-color: rgb(64, 64, 64);
-    margin:0;
-    padding-bottom:5px;
     width:100%;
     height:500px;
-    bottom:0;
-    
-
 }
 
-
-#onde{
-    width: 40%;
-}
 
 #mais ul{
     height: 300px;
@@ -241,6 +201,7 @@ h3{
 #mais li a:hover{
     color: white
 }
+
 #mais-qsm{
     color:gray;
     font-size: 15px;
@@ -261,7 +222,7 @@ h3{
 
 
 footer{
-    position:relative;
+    position:fixed;
     bottom:0;
     width:100%;
 }
@@ -275,13 +236,7 @@ footer{
     padding-top: 100px;
     position:absolute;
     height:200px;
-    width:250px
-}
-
-#local{
-    margin-left: 100%;
-    margin-top: -15%;
-    width:90%
+    width:250px;
 }
 
 
@@ -299,7 +254,7 @@ footer{
 }
 
 main{
-    background-color:white;
+    background-color:gray;
     margin-top:14px;
     display:flex;
     flex-wrap: wrap;
@@ -314,100 +269,14 @@ main{
 
 }
 
-
-#pt2{
-    display:flex;
-    flex-wrap: wrap;
-    height:600px;
-    width:100%;
-    background-color: #ff6666;
-}
-
-
-
-#card2{
-    display:flex;
-    flex-direction: row-reverse;
-    margin-top:60px;
-    margin-left:30px;
-    border:none;
-    background-color:white;
-    height:500px
-}
-
-
-
-#predio{
-    display:flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-}
-
-#predio img{
-    margin-right:5px;
-    margin-left:30px;
-    height: 200px;
-}
-
-
-#BTenvia{
-    background-color: #ff4d4d;
-    border: 1px solid red;
-}
-
-#pt1{
-    width:100%
-}
-
-#fale{
-    display:grid;
-    position:relative;
-    width:100%;
-    margin-top:5%;
-    height:600px;
-    background-color: #ff6633;
-}
-
-#form{
-    width:50%;
-}
-
-#numero{
-    display:block;
-    text-align: center;
-    width:23%;
-    height:330px;
-    padding-top:5%;
-    margin-left:70%;
-    margin-top: -28% ;
-    position:relative;
-    background-color: red;
-    border-radius:10%
-}
-
-
-
-@media(max-width:1280px){
-
-    #pt1{
-        margin-bottom:10%;
-    }
+@media(max-width:1080px){
 
     #menuf{
         margin-right: 70%
     }
 
     #qms{
-        margin-left: 50%;
-    }
-    
-    
-    #numero{
-        margin-right:5%;
-        width:300px;
-        height:300px;
-        margin-left: 5%;
-        margin-top: 10% ;
+        margin-left: 50%
     }
 
     #new{
@@ -415,37 +284,4 @@ main{
     }
 
 
-    #form{
-        width:50%;
-        
-    }
-
-    .card-img{
-        width:50%
-    
-    }
-
-    #fale{
-        height:1000px;
-        justify-items: center;
-        margin-top:0
-    }
-
-
-    #local{
-       width:100%;
-       margin-top:40%;
-       margin-left:-105%
-
-    }
-
-    #predio img{
-       width:50%;
-       height: 50%;
-    }
-
-    #onde{
-        width:80%;
-        margin-bottom:0
-    }
 }
